@@ -2,25 +2,68 @@ body {
  color: white;
  background: black;
  margin: 0px;
+ font-family: "Baskervville SC", serif;
+ margin-bottom: 100px;
 }
 
 header {
-border-bottom: solid 2px rgb(255, 255, 255);
+border-bottom: solid 1px rgb(255, 255, 255);
 padding: 20px;
 font-size: 32px;
 color: rgb(255, 255, 255) ;
 }
 
-section {
+.chamada {
 background: rgb(63, 8, 7);
-padding-right: 80px;
-padding-left: 80px;
 padding-bottom: 80px;
 padding-top: 80px;
+padding-right: 20px;
+padding-left: 20px; 
 display: flex;
 justify-content: center;
 }
 
 .chamada-texto {
     margin-right: 5%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 2px solid yellow;   
+}
+
+.categoria h2 {
+    color: rgb(237, 225, 95)
 }
